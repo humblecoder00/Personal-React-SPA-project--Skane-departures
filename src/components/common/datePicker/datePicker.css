@@ -1,0 +1,36 @@
+.flatpickr-input[readonly] {
+  cursor: pointer;
+  -webkit-appearance: none;
+  width: 100%;
+  max-width: 100%;
+  border: 0;
+  font-family: inherit;
+  padding: 16px 0 4px 0;
+  height: 48px;
+  font-size: 16px;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  border-bottom: 2px solid #c8ccd4;
+  background: none;
+  border-radius: 0;
+  color: #223254;
+  transition: all 0.15s ease;
+}
+
+.flatpickr-input[readonly]:hover {
+  background: rgba(34, 50, 84, 0.03);
+}
+
+.flatpickr-input[readonly]:focus {
+  background: none;
+  outline: none;
+}
+
+.flatpickr-input[readonly]:focus + span {
+  color: #ef5350;
+  transform: translateY(-26px) scale(0.75);
+}
+
+.flatpickr-input[readonly]:focus + .border {
+  transform: scaleX(1);
+}

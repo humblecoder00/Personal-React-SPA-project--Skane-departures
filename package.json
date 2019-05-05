@@ -2,9 +2,14 @@
   "name": "vara-i-tid",
   "version": "0.1.0",
   "private": true,
+  "author": "Şahin Arslan",
   "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-flatpickr": "^3.7.1",
     "react-scripts": "3.0.0"
   },
   "scripts": {

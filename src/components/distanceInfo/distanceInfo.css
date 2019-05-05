@@ -1,0 +1,57 @@
+.distanceHeader {
+  display: flex;
+  line-height: 22px;
+  font-size: 0.75rem;
+  list-style: none;
+  position: relative;
+  /* padding-left: 40px; */
+  font-weight: 700;
+}
+
+.distanceIconColumn {
+  width: 40px;
+  display: block;
+  float: left;
+  margin-top: 6px;
+}
+
+.distanceIcon {
+  height: 36px;
+  margin-left: 10px;
+}
+
+.distanceInfo {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+.inlineHeading {
+  display: grid;
+  text-align: left;
+}
+
+.inlineText {
+  padding: 5px 0 0 0;
+  position: inherit;
+}
+
+.stationColumn {
+  width: 50%;
+  position: relative;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.distanceMetersColumn {
+  width: 50%;
+  position: relative;
+  text-align: left;
+  box-sizing: border-box;
+}

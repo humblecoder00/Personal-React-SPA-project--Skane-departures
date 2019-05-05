@@ -1,0 +1,53 @@
+p {
+  color: #e74c3c;
+  font: 18px;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 40px;
+}
+
+/* loading dots */
+
+.loading:after {
+  content: " .";
+  -webkit-animation: dots 1s steps(5, end) infinite;
+  animation: dots 1s steps(5, end) infinite;
+}
+
+@-webkit-keyframes dots {
+  0%,
+  20% {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  40% {
+    color: #e74c3c;
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  60% {
+    text-shadow: 0.25em 0 0 #e74c3c, 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  80%,
+  100% {
+    text-shadow: 0.25em 0 0 #e74c3c, 0.5em 0 0 #e74c3c;
+  }
+}
+
+@keyframes dots {
+  0%,
+  20% {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  40% {
+    color: #e74c3c;
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  60% {
+    text-shadow: 0.25em 0 0 #e74c3c, 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  80%,
+  100% {
+    text-shadow: 0.25em 0 0 #e74c3c, 0.5em 0 0 #e74c3c;
+  }
+}

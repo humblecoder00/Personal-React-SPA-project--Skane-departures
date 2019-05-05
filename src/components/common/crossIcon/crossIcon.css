@@ -1,0 +1,55 @@
+.cross-container {
+  /* position: absolute;
+  right: 0; */
+  padding-top: 24px;
+  float: right;
+  /* z-index: 100; */
+}
+
+.close {
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.close:hover::before,
+.close:hover::after {
+  background: #ef5350;
+}
+.close::before,
+.close::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  background: #4d4845;
+}
+.close::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.close.blades::before,
+.close.blades::after {
+  border-radius: 5px 0;
+}
+
+.close.thick::before,
+.close.thick::after {
+  height: 4px;
+  margin-top: -2px;
+}

@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  background-image: url("/images/background-min.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  align-items: center;
+}
+
+.queryArea {
+  display: block;
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 4px #c1bcbb;
+  background-color: white;
+}
+
+.resultArea,
+.distanceArea,
+.paginationArea {
+  display: block;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  box-shadow: 0 0 4px #c1bcbb;
+  background-color: white;
+}
+
+.queryHeader {
+  height: 60px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.queryHeader > h3 {
+  margin: auto;
+  color: #ef5350;
+  font-weight: 500;
+}
+
+.queryItem1 {
+  display: block;
+  height: 50px;
+  margin-bottom: 5px;
+  padding: 0 5 0 5px;
+}
+
+.textInput {
+  position: relative;
+}
+
+.queryItem2 {
+  display: block;
+  height: 100px;
+}
+
+.queryItem3 {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  margin-top: 30px;
+}
+
+.validationError {
+  color: #ef5350;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .queryArea {
+    width: 80%;
+  }
+
+  .resultArea,
+  .distanceArea,
+  .paginationArea {
+    width: 95%;
+  }
+
+  .queryHeader {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .queryArea {
+    width: 60%;
+  }
+
+  .resultArea,
+  .distanceArea,
+  .paginationArea {
+    width: 80%;
+  }
+}

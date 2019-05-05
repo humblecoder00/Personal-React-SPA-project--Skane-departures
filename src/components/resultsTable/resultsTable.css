@@ -1,0 +1,112 @@
+.resultsHeader {
+  display: flex;
+  line-height: 22px;
+  font-size: 0.75rem;
+  list-style: none;
+  position: relative;
+  padding-left: 40px;
+  font-weight: 700;
+}
+
+.destinationHeader {
+  width: 50%;
+  position: relative;
+  text-align: left;
+}
+
+.locationHeader {
+  text-align: center;
+  width: 25%;
+  position: relative;
+  margin: auto;
+}
+
+.timeHeader {
+  width: 25%;
+  margin: auto auto auto;
+  text-align: right;
+  position: relative;
+}
+
+.vehicleIcon {
+  left: 6px;
+  bottom: 3px;
+  top: inherit;
+  background-size: contain;
+  background-position: center left;
+  width: 30px;
+  height: 30px;
+  margin-top: -2px;
+  content: "";
+  width: 33px;
+  height: 20px;
+  display: inline-block;
+  left: 5px;
+  top: 7px;
+}
+
+.resultItem {
+  display: flex;
+  border: 1px solid #f2efe9;
+  box-sizing: border-box;
+  padding: 5px 0;
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  font-weight: 450;
+}
+
+.iconColumn {
+  width: 40px;
+  display: block;
+  float: left;
+  margin-top: 14px;
+}
+
+.destinationColumn {
+  width: 50%;
+  position: relative;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.destinationInfo {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+.routeInfo {
+  display: grid;
+  text-align: left;
+}
+
+.routeName {
+  padding: 5px 0 0 0;
+  position: inherit;
+}
+
+.locationColumn {
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.timeColumn {
+  width: 25%;
+  margin: auto;
+  text-align: right;
+  position: relative;
+}
+
+@media screen and (min-width: 767px) {
+  .resultItem {
+    font-size: 0.9rem;
+  }
+}
