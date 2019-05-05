@@ -10,14 +10,14 @@ Skåne Departures is a responsive SPA which helps to search the closest departur
 
 It uses Skånetrafiken's Open API endpoints to perform related queries.
 
-###### Functionality:
+## Functionality:
 
 `Calculate:` If the given start point is an Address or a Place, App first calculates the nearest station in meters and displays the distance - then searches and displays the departures based on closest station and given date & time.
 
 If the given start point is a Station, App ignores displaying distance and only brings the departures based on given date & time.
 
-###### Main technologies used during development:
+## Main technologies used during development:
 
 `Front-end:` Built with using ReactJS as main framework, along with couple handy npm packages. CSS is fully custom hard-coded, background picture is taken personally.
 
-###### Live version: https://skanedepartures.herokuapp.com
+## Live version: https://skanedepartures.herokuapp.com
