@@ -1,6 +1,6 @@
 {
-  "name": "vara-i-tid",
-  "version": "0.1.0",
+  "name": "skanedepartures",
+  "version": "1.0.0",
   "private": true,
   "author": "Şahin Arslan",
   "dependencies": {
