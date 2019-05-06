@@ -18,6 +18,6 @@ If the given start point is a Station, App ignores displaying distance and only 
 
 ## Main technologies used during development:
 
-`Front-end:` Built with using ReactJS as main framework, along with couple handy npm packages. CSS is fully custom hard-coded, background picture is taken personally.
+`Front-end:` Built with using ReactJS, along with couple handy npm packages. CSS is fully custom hard-coded, background picture is taken personally.
 
 ## Live version: https://skanedepartures.herokuapp.com
