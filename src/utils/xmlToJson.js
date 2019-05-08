@@ -47,8 +47,6 @@ export function nearestToJson(xmlFile) {
     distance: points[0].childNodes[4].innerHTML + " meters"
   };
 
-  console.log("get the signal, catched the needed stuff", nearestStop);
-
   return nearestStop;
 }
 
@@ -58,8 +56,6 @@ export function listDepartures(xmlFile) {
 
   let departs = [...xml.getElementsByTagName("Line")];
   let departLines = [];
-
-  console.log(departs[4].childNodes);
 
   for (let i = 0; i < departs.length; i++) {
     departLines.push({
@@ -89,7 +85,6 @@ export function listDepartures(xmlFile) {
         : "bussGron.svg"
   }));
 
-  console.log("return filtered stuff", modified);
   return modified;
 }
 
