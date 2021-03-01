@@ -20,4 +20,5 @@ If the given start point is a Station, App ignores displaying distance and only 
 
 `Front-end:` Built with using ReactJS, along with couple handy npm packages. CSS is fully custom hard-coded, background picture is taken personally.
 
-## Live version: https://skanedepartures.herokuapp.com
+
+Note: Live preview is temporarily unavailable due to external API changes. This will be updated soon.
